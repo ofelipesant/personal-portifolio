@@ -88,7 +88,7 @@
 .contatos li > .list-title {
     text-align: center;
     padding: 8px 0;
-    font-family: var(--secundary-font);
+    font-family: var(--text-font);
     font-size: 20px;
     letter-spacing: 1.5px;
 }

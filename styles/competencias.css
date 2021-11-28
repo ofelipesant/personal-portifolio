@@ -1,0 +1,109 @@
+.competencias{
+    width: 93%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.competencias > h1{
+    text-align: center;
+}
+
+.competencias-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.competencias-info{
+    padding: 10px;
+    border: solid 2px var(--primary-color);
+    border-radius: 10px;
+    height: 445px;
+    width: 500px;
+}
+
+.competencias-info > h2{
+    font-family: var(--text-font);
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+   background-color: var(--primary-color);
+   border-radius:20px;
+}
+
+.competencias-info img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.status-prog{
+    display: flex;
+    padding-top: 10px;
+}
+
+.status{
+    padding-top: 18px;
+}
+
+.status > span{
+    font-family: var(--text-font);
+}
+
+.statusbar{
+    height: 14px;
+    width: 90%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    position: relative;
+}
+
+.html > span{
+    background-color: var(--secundary-color);
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+}
+
+
+.css > span{
+    background-color: var(--secundary-color);
+    width: 75%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+}
+
+
+.javascript > span{
+    background-color: var(--secundary-color);
+    width: 47%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+}
+
+
+.C > span{
+    background-color: var(--secundary-color);
+    width: 27%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+}
+
+
+.git > span{
+    background-color: var(--secundary-color);
+    width: 33%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+}
+
+

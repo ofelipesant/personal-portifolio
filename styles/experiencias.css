@@ -10,7 +10,7 @@
 .experiencia-infos{
     width: 100%;
     display: flex;
-    padding: 15px;
+    padding: 25px;
 }
 
 .experiencia-infos img{
@@ -23,4 +23,8 @@
 .experiencia-text-infos{
     padding: 30px 0;
     font-family: var(--text-font);
+}
+
+.swiper-button-prev::after, .swiper-button-next::after{
+    color: white;
 }
