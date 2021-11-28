@@ -5,6 +5,7 @@
     font-style: normal;
 }
 
+
 @font-face {
     font-family: 'GoboldUplow';
     src: url(../fonts/Gobold-Uplow.otf) format('opentype');
@@ -12,7 +13,13 @@
     font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@font-face {
+    font-family: 'Nunito';
+    src: url(../fonts/Nunito-Light.ttf);
+    font-weight: lighter;
+    font-style: normal;
+}
+
 
 *{
     margin: 0;
@@ -26,7 +33,7 @@
 
     --primary-font: 'GoboldRegular', sans-serif;
     --secundary-font: 'GoboldUplow', sans-serif;
-    --text-font:'PT Sans', roboto;
+    --text-font:'Nunito', sans-serif;
 }
 
 html{
@@ -56,25 +63,7 @@ main{
     padding-top: 60px;
 }
 
-@media(max-width:517px){
-    .cabecalho{
-        display: none;
-        opacity: 0;
-    }
 
-    .menu{
-        display: none;
-    }
-
-    main{
-        padding-top: 0;
-    }
-
-    .sobre{
-        border: none;
-    }
-
-}
 
 
 

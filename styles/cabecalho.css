@@ -19,3 +19,20 @@
     font-size: 18px;
 
 }
+
+/* RESPONSIVITY */
+@media(max-width:517px){
+    .cabecalho{
+        display: none;
+        opacity: 0;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    main{
+        padding-top: 0;
+    }
+
+}

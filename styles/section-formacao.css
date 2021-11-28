@@ -1,0 +1,42 @@
+.formacao{
+    width: 93%;
+    border: solid 2px var(--primary-color);
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.formacao-content h1{
+    padding: 10px;
+    font-family: var(--text-font);
+}
+
+.formacao-infos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+}
+
+.formacao-infos img{
+    width: 130px;
+    height: 130px;
+    padding: 5px;
+}
+
+.formacao-infos .dados{
+    width: 350px;
+    font-family: var(--text-font);
+    padding-left: 10px;
+}
+
+.formacao-infos .periodo{
+    height: 20px;
+    padding: 10px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    font-family: var(--text-font);
+}
