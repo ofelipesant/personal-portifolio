@@ -63,6 +63,15 @@ main{
     padding-top: 60px;
 }
 
+.section-title{
+    font-family: var(--text-font);
+    padding: 10px;
+}
+
+.swiper {
+    width: 100%;
+  }
+
 
 
 

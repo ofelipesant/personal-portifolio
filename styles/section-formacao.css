@@ -8,11 +8,6 @@
 
 }
 
-.formacao-content h1{
-    padding: 10px;
-    font-family: var(--text-font);
-}
-
 .formacao-infos{
     width: 100%;
     display: flex;
