@@ -48,6 +48,7 @@
 
 .status{
     padding-top: 18px;
+    width: 100%;
 }
 
 .status > span{
@@ -105,5 +106,42 @@
     position: absolute;
     border-radius: 10px;
 }
+
+.ferramentas-prog-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.status-ferramentas {
+    width: 100%;
+    display: flex;
+    padding-top: 40px;
+}
+
+.figma span {
+    background-color: var(--secundary-color);
+    width: 55%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.illustrator span {
+    background-color: var(--secundary-color);
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.photoshop span {
+    background-color: var(--secundary-color);
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+}
+
 
 

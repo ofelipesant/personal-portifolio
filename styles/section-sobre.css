@@ -30,7 +30,7 @@
     flex-wrap: wrap;
 }
 
-.infos h1, ul, div {
+.infos h1, .infos ul, .infos div {
     width: 100%;
 } 
 
