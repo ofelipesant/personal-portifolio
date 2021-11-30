@@ -6,6 +6,7 @@
     position: fixed;
     box-shadow: 0 6px 9px rgba(0, 0, 0, 0.116);
     z-index: 1;
+    margin-bottom: 60px;
 
     display: flex;
     align-items: center;

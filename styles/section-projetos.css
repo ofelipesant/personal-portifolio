@@ -34,6 +34,10 @@
     padding-bottom: 10px;
 }
 
+.projeto-description a{
+    color: white;
+}
+
 .projeto-button{
     width:210px;
     height: 50px;
