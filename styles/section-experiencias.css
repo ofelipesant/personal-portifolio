@@ -6,6 +6,8 @@
     padding: 10px;
     border-radius: 20px;
     z-index: 2;
+
+    visibility: hidden;
 }
 
 .experiencia-infos{

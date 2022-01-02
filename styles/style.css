@@ -65,6 +65,10 @@ main{
     padding-top: 60px;
 }
 
+.body{
+    visibility: hidden;
+}
+
 .section-title{
     font-family: var(--text-font);
     padding: 10px;
