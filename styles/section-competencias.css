@@ -101,7 +101,6 @@
 }
 
 
-
 .git > span{
     background-color: var(--secundary-color);
     width: 33%;
@@ -119,6 +118,7 @@
 .status-ferramentas {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     padding-top: 40px;
 }
 
@@ -147,7 +147,8 @@
 }
 
 .details-competencia{
-    /* width: 100%; */
+    width: 100%;
+    display: block;
     padding: 0 0 0 10px;
     font-family: var(--text-font);
 }
